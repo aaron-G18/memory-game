@@ -17,15 +17,23 @@ function shuffle(arr) {
 
 class App extends Component {
   // Setting the component's initial state.
-  state = {
-    score: 0,
-    highscore: 0
+  constructor(props) {
+    super(props);
+    this.state = {
+      score: 0,
+      highscore: 0,
+      arr: []
+    };
 
-  };
+  }
+  
 
   // When the component mounts, shuffle the array the cards pull from.
   componentDidMount() {
     shuffle(charArr);
+    this.setState({
+      arr: charArr
+    })
   }
 
   // Event handler for when a card is clicked.
@@ -45,16 +53,20 @@ class App extends Component {
           highscore: this.state.score
         });
       }
-      this.setState({
-        score: 0
-      });
       shuffle(charArr);
+      this.setState({
+        score: 0,
+        arr: charArr
+        
+      });
+      
     } else{
       charArr[index].isclicked = "true";
-      this.setState({
-        score: this.state.score + 1
-      });
       shuffle(charArr);
+      this.setState({
+        score: this.state.score + 1,
+        arr: charArr
+      });
     }
    };
   
@@ -67,7 +79,7 @@ render() {
     <Instructions>Click a character and get a point. Don't click the same character twice!</Instructions>
     <br />
     <Score score={this.state.score} highscore={this.state.highscore}></Score>
-    {charArr.map( x => (
+    {this.state.arr.map( x => (
       <Card
       id={x.id}
       key={x.id}
