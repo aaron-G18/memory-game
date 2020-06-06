@@ -5,3 +5,11 @@
   color: #2A77AE;
   margin-bottom: 20px;
 }
+
+/* below 800 px width */
+@media screen and (max-width: 800px) {
+  .instructions {
+    font-size: 1rem;
+  }
+
+}

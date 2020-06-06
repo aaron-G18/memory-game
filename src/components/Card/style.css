@@ -30,3 +30,29 @@
   cursor: pointer;
   transform: scale(1.1);
 }
+
+
+
+/* below 700 px width */
+@media screen and (max-width: 800px) {
+  .card {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+/* below 415 px width */
+@media screen and (max-width: 415px) {
+  .card {
+    height: 75px;
+    width: 75px;
+  }
+}
+
+/* below 360 px width */
+@media screen and (max-width: 360px) {
+  .card {
+    height: 50px;
+    width: 50px;
+  }
+}

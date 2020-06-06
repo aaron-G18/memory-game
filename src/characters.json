@@ -1,73 +1,73 @@
 [{
     "id": 0,
     "name": "Bob",
-    "image": "./images/bob.png",
+    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/bob.png?raw=true",
     "isclicked": false
   },
   {
     "id": 1,
     "name": "Mr. Fischoeder",
-    "image": "./images/fischoeder.png",
+    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/fischoeder.png?raw=true",
     "isclicked": false
   },
   {
     "id": 2,
     "name": "Rudy",
-    "image": "./images/rudy.png",
+    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/rudy.png?raw=true",
     "isclicked": false
   },
   {
     "id": 3,
     "name": "Gene",
-    "image": "./images/gene.png",
+    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/gene.png?raw=true",
     "isclicked": false
   },
   {
     "id": 4,
     "name": "Jimmy Jr.",
-    "image": "./images/jimmy_jr.png",
+    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/jimmy_jr.png?raw=true",
     "isclicked": false
   },
   {
     "id": 5,
     "name": "Jimmy",
-    "image": "./images/jimmy.png",
+    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/jimmy.png?raw=true",
     "isclicked": false
   },
   {
     "id": 6,
     "name": "Linda",
-    "image": "./images/linda.png",
+    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/linda.png?raw=true",
     "isclicked": false
   },
   {
     "id": 7,
     "name": "Louise",
-    "image": "./images/louise.png",
+    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/louise.png?raw=true",
     "isclicked": false
   },
   {
     "id": 8,
     "name": "Phillip",
-    "image": "./images/phillip.png",
+    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/phillip.png?raw=true",
     "isclicked": false
   },
   {
     "id": 9,
     "name": "Teddy",
-    "image": "./images/teddy.png",
+    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/teddy.png?raw=true",
     "isclicked": false
   },
   {
     "id": 10,
     "name": "Tina",
-    "image": "./images/tina.png",
+    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/tina.png?raw=true",
     "isclicked": false
   },
   {
     "id": 11,
     "name": "Zeek",
-    "image": "./images/zeek.png",
+    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/zeek.png?raw=true",
     "isclicked": false
   }
 ]
