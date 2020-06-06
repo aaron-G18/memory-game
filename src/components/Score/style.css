@@ -5,3 +5,19 @@
   color: #2A77AE;
   margin-bottom: 20px;
 }
+
+.high-score {
+  margin-left: 40px;
+}
+
+/* below 800 px width */
+@media screen and (max-width: 800px) {
+  .score {
+    font-size: 1rem;
+  }
+
+  .high-score {
+    margin-left: 20px;
+  }
+
+}
