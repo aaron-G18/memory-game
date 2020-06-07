@@ -7,6 +7,10 @@
   margin-bottom: 10px;
 }
 
+.title-container {
+  margin-bottom: 7px;
+}
+
 button {
   border-radius: 5px;
   background-color: #6CADDC;
@@ -27,7 +31,7 @@ button:focus {
   text-align: center;
 }
 
-.bobs {
+#bobs {
   margin-left: 10%;
 }
 
