@@ -3,11 +3,14 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Card from "./components/Card";
 import Instructions from "./components/Instructions";
-import characters from "./characters.json";
 import Score from "./components/Score";
+// import characters from "./characters.json";
+import spCharacters from "./southpark.json";
 
 
-let charArr = characters;
+
+
+let charArr = spCharacters;
 
 
 function shuffle(arr) {
