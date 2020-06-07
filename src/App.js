@@ -4,13 +4,15 @@ import Title from "./components/Title";
 import Card from "./components/Card";
 import Instructions from "./components/Instructions";
 import Score from "./components/Score";
-// import characters from "./characters.json";
+import bobCharacters from "./characters.json";
 import spCharacters from "./southpark.json";
 
 
 
 
-let charArr = spCharacters;
+let spCharArr = spCharacters;
+let bobCharArr = bobCharacters;
+let charArr = bobCharArr;
 
 
 function shuffle(arr) {
@@ -39,8 +41,36 @@ class App extends Component {
     })
   }
 
+  // Event handler for when a theme button is clicked.
+  handleThemeClick = (event) => {
+    event.preventDefault();
+    console.log("event target class: ", event.target.id);
+    if (event.target.id === "southpark") {
+      charArr = spCharArr;
+      charArr.map( x => {
+        return x.isclicked = "false"
+      });
+      shuffle(charArr);
+      this.setState({
+        score: 0,
+        arr: charArr
+      })
+    } else if (event.target.id === "bobs") {
+      charArr = bobCharArr;
+      shuffle(charArr);
+      charArr.map( x => {
+        return x.isclicked = "false"
+      });
+      this.setState({
+        score: 0,
+        arr: charArr
+      })
+    }
+  };
+
+
   // Event handler for when a card is clicked.
-  handleClick = (event) => {
+  handleCardClick = (event) => {
     event.preventDefault();
     let thisCharId = event.target.id;
     let index = charArr.findIndex(function(element) { 
@@ -77,7 +107,9 @@ class App extends Component {
 render() {
   return ( <div className="d-flex justify-content-center">
   <Wrapper>
-    <Title >Clicky Memory Game!</Title> 
+    <Title 
+    onClick={this.handleThemeClick}
+    >Clicky Memory Game!</Title> 
     <br />
     <Instructions>Click a character and get a point. Don't click the same character twice!</Instructions>
     <br />
@@ -88,7 +120,7 @@ render() {
       key={x.id}
       name={x.name}
       image={x.image}
-      onClick={this.handleClick}
+      onClick={this.handleCardClick}
     />
     ))}
     </Wrapper>

@@ -3,7 +3,13 @@ import "./style.css";
 
 function Title(props) {
   return (
-  <h1 className="title">{props.children}</h1>
+    <div className="titel-container">
+      <h1 className="title">{props.children}</h1>
+      <div className="button-container">
+        <button onClick={props.onClick} type="button" id="southpark">Southpark</button>
+        <button onClick={props.onClick} type="button" id="bobs">Bob's Burgers</button>
+      </div>
+    </div>
   );
 }
 
