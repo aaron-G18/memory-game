@@ -4,7 +4,31 @@
   font-size: 3rem;
   text-decoration: underline;
   color: #2A77AE;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #6CADDC;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #2A77AE;
+}
+
+button:focus {
+  background-color: rgb(21, 79, 121);
+}
+
+.button-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.bobs {
+  margin-left: 10%;
 }
 
 /* below 800 px width */
@@ -13,4 +37,7 @@
     font-size: 2rem;
   }
 
+  .button-container {
+    width: 100%;
+  }
 }
