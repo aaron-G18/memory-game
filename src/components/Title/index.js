@@ -5,6 +5,7 @@ function Title(props) {
   return (
     <div className="title-container">
       <h1 className="title">{props.children}</h1>
+      <p>(choose a theme)</p>
       <div className="button-container">
         <button onClick={props.onClick} type="button" id="southpark">Southpark</button>
         <button onClick={props.onClick} type="button" id="bobs">Bob's Burgers</button>
