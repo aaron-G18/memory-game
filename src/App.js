@@ -94,12 +94,32 @@ class App extends Component {
       });
       
     } else{
-      charArr[index].isclicked = "true";
-      shuffle(charArr);
+      if (this.state.score === 11) {
+        alert("You got them all! Good work!");
+        this.setState({
+          highscore: 12
+        });
+        shuffle(charArr);
       this.setState({
-        score: this.state.score + 1,
+        score: 0,
         arr: charArr
+        
       });
+
+
+
+      } else {
+        charArr[index].isclicked = "true";
+        shuffle(charArr);
+        this.setState({
+          score: this.state.score + 1,
+          arr: charArr
+        });
+
+      }
+
+
+
     }
    };
   
