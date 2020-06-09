@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import Card from "./components/Card";
 import Instructions from "./components/Instructions";
 import Score from "./components/Score";
 import bobCharacters from "./characters.json";
 import spCharacters from "./southpark.json";
+import Card from "./components/Card";
 
 
 

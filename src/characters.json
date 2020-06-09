@@ -1,73 +1,73 @@
 [{
     "id": 0,
     "name": "Bob from Bob's Burgers",
-    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/bob.png?raw=true",
+    "image": "./images/bob.png",
     "isclicked": false
   },
   {
     "id": 1,
     "name": "Mr. Fischoeder from Bob's Burgers",
-    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/fischoeder.png?raw=true",
+    "image": "./images/fischoeder.png",
     "isclicked": false
   },
   {
     "id": 2,
     "name": "Rudy from Bob's Burgers",
-    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/rudy.png?raw=true",
+    "image": "./images/rudy.png",
     "isclicked": false
   },
   {
     "id": 3,
     "name": "Gene from Bob's Burgers",
-    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/gene.png?raw=true",
+    "image": "./images/gene.png",
     "isclicked": false
   },
   {
     "id": 4,
     "name": "Jimmy Jr. from Bob's Burgers",
-    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/jimmy_jr.png?raw=true",
+    "image": "./images/jimmy_jr.png",
     "isclicked": false
   },
   {
     "id": 5,
     "name": "Jimmy from Bob's Burgers",
-    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/jimmy.png?raw=true",
+    "image": "./images/jimmy.png",
     "isclicked": false
   },
   {
     "id": 6,
     "name": "Linda from Bob's Burgers",
-    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/linda.png?raw=true",
+    "image": "./images/linda.png",
     "isclicked": false
   },
   {
     "id": 7,
     "name": "Louise from Bob's Burgers",
-    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/louise.png?raw=true",
+    "image": "./images/louise.png",
     "isclicked": false
   },
   {
     "id": 8,
     "name": "Phillip from Bob's Burgers",
-    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/phillip.png?raw=true",
+    "image": "./images/phillip.png",
     "isclicked": false
   },
   {
     "id": 9,
     "name": "Teddy from Bob's Burgers",
-    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/teddy.png?raw=true",
+    "image": "./images/teddy.png",
     "isclicked": false
   },
   {
     "id": 10,
     "name": "Tina from Bob's Burgers",
-    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/tina.png?raw=true",
+    "image": "./images/tina.png",
     "isclicked": false
   },
   {
     "id": 11,
     "name": "Zeek from Bob's Burgers",
-    "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/zeek.png?raw=true",
+    "image": "./images/zeek.png",
     "isclicked": false
   }
 ]

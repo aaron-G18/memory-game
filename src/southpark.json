@@ -1,73 +1,73 @@
 [{
         "id": 0,
         "name": "Butters from Southpark",
-        "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/southpark/butters.png?raw=true",
+        "image": "./images/southpark/butters.png",
         "isclicked": false
     },
     {
         "id": 1,
         "name": "Cartman from Southpark",
-        "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/southpark/cartman.png?raw=true",
+        "image": "./images/southpark/cartman.png",
         "isclicked": false
     },
     {
         "id": 2,
         "name": "Craig from Southpark",
-        "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/southpark/craig.png?raw=true",
+        "image": "./images/southpark/craig.png",
         "isclicked": false
     },
     {
         "id": 3,
         "name": "Heidi from Southpark",
-        "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/southpark/heidi.png?raw=true",
+        "image": "./images/southpark/heidi.png",
         "isclicked": false
     },
     {
         "id": 4,
         "name": "Jimmy from Southpark",
-        "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/southpark/jimmy.png?raw=true",
+        "image": "./images/southpark/jimmy.png",
         "isclicked": false
     },
     {
         "id": 5,
         "name": "Kenny from Southpark",
-        "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/southpark/kenny.png?raw=true",
+        "image": "./images/southpark/kenny.png",
         "isclicked": false
     },
     {
         "id": 6,
         "name": "Kyle from Southpark",
-        "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/southpark/kyle.png?raw=true",
+        "image": "./images/southpark/kyle.png",
         "isclicked": false
     },
     {
         "id": 7,
         "name": "Stan from Southpark",
-        "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/southpark/stan.png?raw=true",
+        "image": "./images/southpark/stan.png",
         "isclicked": false
     },
     {
         "id": 8,
         "name": "Timmy from Southpark",
-        "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/southpark/timmy.png?raw=true",
+        "image": "./images/southpark/timmy.png",
         "isclicked": false
     },
     {
         "id": 9,
         "name": "Token from Southpark",
-        "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/southpark/token.png?raw=true",
+        "image": "./images/southpark/token.png",
         "isclicked": false
     },
     {
         "id": 10,
         "name": "Tweek from Southpark",
-        "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/southpark/tweek.png?raw=true",
+        "image": "./images/southpark/tweek.png",
         "isclicked": false
     },
     {
         "id": 11,
         "name": "Wendy from Southpark",
-        "image": "https://github.com/aaron-G18/memory-game/blob/master/public/images/southpark/wendy.png?raw=true",
+        "image": "./images/southpark/wendy.png",
         "isclicked": false
     }
 ]
