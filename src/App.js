@@ -7,14 +7,12 @@ import bobCharacters from "./characters.json";
 import spCharacters from "./southpark.json";
 import Card from "./components/Card";
 
-
-
-
+// Variables
 let spCharArr = spCharacters;
 let bobCharArr = bobCharacters;
 let charArr = bobCharArr;
 
-
+// Function for suffling the current array that the cards will render from.
 function shuffle(arr) {
   arr.sort(() => Math.random() - 0.5);
 };
@@ -33,7 +31,7 @@ class App extends Component {
   }
   
 
-  // When the component mounts, shuffle the array the cards pull from.
+  // When the component mounts, shuffle the array that the cards are rendered from.
   componentDidMount() {
     shuffle(charArr);
     this.setState({
@@ -41,7 +39,7 @@ class App extends Component {
     })
   }
 
-  // Event handler for when a theme button is clicked.
+  // Event handler for when a theme button is clicked. Set the working array to whichever theme is selected.
   handleThemeClick = (event) => {
     event.preventDefault();
     console.log("event target class: ", event.target.id);
@@ -76,6 +74,7 @@ class App extends Component {
     let index = charArr.findIndex(function(element) { 
       return element.id === parseInt(thisCharId, 10)} );
 
+    //If statement to catch if the card has already been clicked.
     if (charArr[index].isclicked === "true") {
       alert("You already clicked that one! Game over, try again!");
       charArr.map( x => {
@@ -90,10 +89,11 @@ class App extends Component {
       this.setState({
         score: 0,
         arr: charArr
-        
       });
-      
+     
+    // Else for when the card has not already been clicked.
     } else{
+      // If statement for clicking the 12th and final card, winning the game.
       if (this.state.score === 11) {
         alert("You got them all! Good work!");
         this.setState({
@@ -103,11 +103,9 @@ class App extends Component {
       this.setState({
         score: 0,
         arr: charArr
-        
       });
 
-
-
+      // Else for not the final card.
       } else {
         charArr[index].isclicked = "true";
         shuffle(charArr);
@@ -115,11 +113,7 @@ class App extends Component {
           score: this.state.score + 1,
           arr: charArr
         });
-
       }
-
-
-
     }
    };
   
