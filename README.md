@@ -8,7 +8,7 @@ Here is a link to the deployed site on heroku:
 
 [Aaron's Memory Game](https://aaron-g18.github.io/memory-game/)
 
-(https://user-images.githubusercontent.com/58674283/88344126-cc03a200-ccf7-11ea-8670-57a80095801f.png?raw=true "Memory Game")
+![Screenshot of Memory Game](https://user-images.githubusercontent.com/58674283/88344126-cc03a200-ccf7-11ea-8670-57a80095801f.png?raw=true "Memory Game")
 
 ---
 
