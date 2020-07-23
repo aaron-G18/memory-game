@@ -8,6 +8,8 @@ Here is a link to the deployed site on heroku:
 
 [Aaron's Memory Game](https://aaron-g18.github.io/memory-game/)
 
+(https://user-images.githubusercontent.com/58674283/88344126-cc03a200-ccf7-11ea-8670-57a80095801f.png?raw=true "Memory Game")
+
 ---
 
 The main focus of this project was to get familiar with React and implement some of the core concepts of that library in a deployed project.
